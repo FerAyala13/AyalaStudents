@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/pastel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUni">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/logon"
+        app:layout_constraintBottom_toTopOf="@+id/Inscripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></ImageView>
+
+    <Button
+        android:id="@+id/Inscripcion"
+        android:layout_width="306dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="32dp"
+        android:text="Inscribir"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Precios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button
+        android:id="@+id/Precios"
+        android:layout_width="307dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="24dp"
+        android:text="Precios"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Lista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button
+        android:id="@+id/Lista"
+        android:layout_width="352dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="36dp"
+        android:text="Lista de Matriculados"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="384dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="36dp"
+        android:text="Informacion de la Universidad"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

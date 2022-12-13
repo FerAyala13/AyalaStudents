@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AyalaStudents</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Abrir_Drawer">Abrir</string>
+    <string name="Cerrar_Drawer">Cerrar</string>
+</resources>
